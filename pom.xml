@@ -24,6 +24,8 @@
         <crowdar.projectType.driverCapabilities.jsonFile>src/main/resources/capabilities/androidCapabilities.json</crowdar.projectType.driverCapabilities.jsonFile>
         <crowdar.remoteDriverType></crowdar.remoteDriverType>
         <crowdar.reporter.avent>true</crowdar.reporter.avent>
+        <email>pepelopez125q@gmail.com</email>
+        <password>Pepelopez789</password>
     </properties>
 
     <profiles>

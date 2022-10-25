@@ -11,7 +11,7 @@ import io.cucumber.java.en.When;
 public class HomeSteps extends PageSteps {
     @Given("el usuario esta logeado")
     public void elUsuarioEstaLogeado(){
-        LoginService.doLogin("pepelopez125q@gmail.com","Pepelopez789");
+        LoginService.doLogin(PropertyManager.getProperty("email"), PropertyManager.getProperty("password"));
     }
 
     @When("El usuario hace click en el boton +")
