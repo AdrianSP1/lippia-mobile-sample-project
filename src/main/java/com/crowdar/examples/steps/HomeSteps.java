@@ -23,5 +23,20 @@ public class HomeSteps extends PageSteps {
     public void elUsuarioHaceClickEnElBotonDeEntradaDeFecha() {
         HomeService.clickMenuFechas();
     }
+
+    @And("el usuario ingresa el inicio (.*) del trabajo")
+    public void elUsuarioIngresaLaHoraDeInicioDelTrabajo(String horaDeInicio) {
+        HomeService.inputHoraInicio(horaDeInicio);
+    }
+
+    @And("el usuario hace click en el boton End")
+    public void elUsuarioHaceClickEnElBotonEnd() {
+        HomeService.clickHoraFin();
+    }
+
+    @And("el usuario ingresa el fin (.*) del trabajo")
+    public void elUsuarioIngresaLaHoraDeFinDelTrabajo(String E_Hora) {
+        HomeService.inputHoraFin(E_Hora);
+    }
 }
 
